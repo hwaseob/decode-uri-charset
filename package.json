@@ -1,0 +1,27 @@
+{
+  "name": "decode-uri-charset",
+  "version": "1.0.0",
+  "description": "decodes uri with non UTF-8 encoded",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwaseob/decode-uri-charset.git"
+  },
+  "keywords": [
+    "decode",
+    "uri",
+    "charset"
+  ],
+  "author": "lee hwa seob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwaseob/decode-uri-charset/issues"
+  },
+  "homepage": "https://github.com/hwaseob/decode-uri-charset#readme",
+  "dependencies": {
+    "iconv-lite": "^0.4.19"
+  }
+}

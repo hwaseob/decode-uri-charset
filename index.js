@@ -15,6 +15,10 @@ var url_decode = function (str, charset) {
         i = re.lastIndex;
         ar.push(parseInt(result[1], 16));
     }
+    while (i < str.length)
+    {
+        ar.push(str.charCodeAt(i++));
+    }
 
     var b = Buffer.from(ar);
     return iconv.decode(b, charset || 'utf8').toString();
